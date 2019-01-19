@@ -1,0 +1,2529 @@
+Game payoffs look like this:
+[ 0 4 ]
+[ 2 1 ]
+
+
+
+
+
+
+Round == 0
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 1
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 2
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 3
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 4
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 5
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 6
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 7
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 8
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 9
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 10
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 11
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 12
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 13
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 14
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 15
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 16
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 17
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 18
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 19
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 20
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 21
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 22
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 23
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 24
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 25
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 26
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 27
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 28
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 29
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 30
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 31
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 32
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 33
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 34
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 35
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 36
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 37
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 38
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 39
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 40
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 41
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 42
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 43
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 44
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 45
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 46
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 47
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 48
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 49
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 50
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 51
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 52
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 53
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 54
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 55
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 56
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 57
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 58
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 59
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 60
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 61
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 62
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 63
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 64
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 65
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 66
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 67
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 68
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 69
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 70
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 71
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 72
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 73
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 74
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 75
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 76
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 77
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 78
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 79
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 80
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 81
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 82
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 83
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 84
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 85
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 86
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 87
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 88
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 89
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 90
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 91
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 92
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 93
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 94
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 95
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 96
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 97
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 98
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 99
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 100
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 101
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 102
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 103
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 104
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 105
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 106
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 107
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 108
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 109
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 110
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 111
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 112
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 113
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 114
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 115
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 116
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 117
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 118
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 119
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 120
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 121
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 122
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 123
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 124
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 125
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 126
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 127
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 128
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 129
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 130
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 131
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 132
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 133
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 134
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 135
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 136
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 137
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 138
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 139
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 140
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 141
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 142
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 143
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 144
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 145
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 146
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 147
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 148
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 149
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 150
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 151
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 152
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 153
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 154
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 155
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 156
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 157
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 158
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 159
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 160
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 161
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 162
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 163
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 164
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 165
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 166
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 167
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 168
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 169
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 170
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 171
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 172
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 173
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 174
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 175
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 176
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 177
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 178
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 179
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 180
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 181
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 182
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 183
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 184
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 185
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 186
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 187
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 188
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 189
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 190
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 191
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 192
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 193
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 194
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 195
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 196
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 197
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 198
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 199
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 200
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 201
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 202
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 203
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 204
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 205
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 206
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 207
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 208
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 209
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 210
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 211
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 212
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 213
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 214
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 215
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 216
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 217
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 218
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 219
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 220
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 221
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 222
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 223
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 224
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 225
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 226
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 227
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 228
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 229
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 230
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 231
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 232
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 233
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 234
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 235
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 236
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 237
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 238
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 239
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 240
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 241
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 242
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 243
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 244
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 245
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 246
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 247
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 248
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 249
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 250
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 251
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 252
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 253
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 254
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 255
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 256
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 257
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 258
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 259
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 260
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 261
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 262
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 263
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 264
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 265
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 266
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 267
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 268
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 269
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 270
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 271
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 272
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 273
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 274
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 275
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 276
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 277
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 278
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 279
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 280
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 281
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 282
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 283
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 284
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 285
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 286
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 287
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 288
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 289
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 290
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 291
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 292
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 293
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 294
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 295
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 296
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 297
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 298
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 299
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 300
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 301
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 302
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 303
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 304
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 305
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 306
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 307
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 308
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 309
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 310
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 311
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 312
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 313
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 314
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 315
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 316
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 317
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 318
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 319
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 320
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 321
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 322
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 323
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 324
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 325
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 326
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 327
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 328
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 329
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 330
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 331
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 332
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 333
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 334
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 335
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 336
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 337
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 338
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 339
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 340
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 341
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 342
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 343
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 344
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 345
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 346
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 347
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 348
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 349
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 350
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 351
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 352
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 353
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 354
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 355
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 356
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 357
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 358
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 359
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 360
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 361
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 362
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 363
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 364
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 365
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 366
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 367
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 368
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 369
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 370
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 371
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 372
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 373
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 374
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 375
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 376
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 377
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 378
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 379
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 380
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 381
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 382
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 383
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 384
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 385
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 386
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 387
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 388
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 389
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 390
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 391
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 392
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 393
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 394
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 395
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 396
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 397
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 398
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 399
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 400
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 401
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 402
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 403
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 404
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 405
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 406
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 407
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 408
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 409
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 410
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 411
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 412
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 413
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 414
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 415
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 416
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 417
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 418
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 419
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 420
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 421
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 422
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 423
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 424
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 425
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 426
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 427
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 428
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 429
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 430
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 431
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 432
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 433
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 434
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 435
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 436
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 437
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 438
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 439
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 440
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 441
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 442
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 443
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 444
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 445
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 446
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 447
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 448
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 449
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 450
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 451
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 452
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 453
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 454
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 455
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 456
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 457
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 458
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 459
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 460
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 461
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 462
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 463
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 464
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 465
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 466
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 467
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 468
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 469
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 470
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 471
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 472
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 473
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 474
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 475
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 476
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 477
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 478
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 479
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 480
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 481
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 482
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 483
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 484
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 485
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 486
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 487
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 488
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 489
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 490
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 491
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 492
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 493
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 494
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 495
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 496
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 497
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 498
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 499
+
+P1 == 1 and P2 == 1 -> 1
+
+
+
+CUMULATIVE RESULTS for 500
+
+
+
+Value of the game == 1.73
+
+
+Strategy results are:
+
+Player 1:
+raw strategy counts: 
+0 == 246 1 == 254 
+[   0] == 0.492	[   1] == 0.508	
+
+
+Player 2:
+raw strategy counts: 
+0 == 262 1 == 238 
+[   0] == 0.524	[   1] == 0.476	

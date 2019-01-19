@@ -1,0 +1,4261 @@
+Game payoffs look like this:
+[ 0 4 ]
+[ 2 1 ]
+
+
+
+
+
+
+Round == 0
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 1
+
+#rounds == 1 Statistics are like so: 1 == 1 
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 1 expected payoff == 4
+Player I: best value @ 0 -> 4
+#rounds == 1 Statistics are like so: 1 == 1 
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 1 expected payoff == 1
+Player II: best value @ 1 -> 1
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 2
+
+#rounds == 2 Statistics are like so: 0 == 0 1 == 2 
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 1 expected payoff == 4
+Player I: best value @ 0 -> 4
+#rounds == 2 Statistics are like so: 0 == 1 1 == 1 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.5 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.5 expected payoff == 0.5
+Player II: best value @ 0 -> 0
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 3
+
+#rounds == 3 Statistics are like so: 0 == 1 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.333333 expected payoff == 0.666667
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.666667 expected payoff == 2.66667
+Player I: best value @ 0 -> 2.66667
+#rounds == 3 Statistics are like so: 0 == 2 1 == 1 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.666667 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.333333 expected payoff == 0.333333
+Player II: best value @ 0 -> 0
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 4
+
+#rounds == 4 Statistics are like so: 0 == 2 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.5 expected payoff == 1
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.5 expected payoff == 2
+Player I: best value @ 0 -> 2
+#rounds == 4 Statistics are like so: 0 == 3 1 == 1 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.75 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.25 expected payoff == 0.25
+Player II: best value @ 0 -> 0
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 5
+
+#rounds == 5 Statistics are like so: 0 == 3 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.6 expected payoff == 1.2
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.4 expected payoff == 1.6
+Player I: best value @ 0 -> 1.6
+#rounds == 5 Statistics are like so: 0 == 4 1 == 1 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.8 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.2 expected payoff == 0.2
+Player II: best value @ 0 -> 0
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 6
+
+#rounds == 6 Statistics are like so: 0 == 4 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.666667 expected payoff == 1.33333
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.333333 expected payoff == 1.33333
+Player I: best value @ 1 -> 1.33333
+#rounds == 6 Statistics are like so: 0 == 5 1 == 1 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.833333 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.166667 expected payoff == 0.166667
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 7
+
+#rounds == 7 Statistics are like so: 0 == 5 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.714286 expected payoff == 1.42857
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.285714 expected payoff == 1.14286
+Player I: best value @ 1 -> 1.42857
+#rounds == 7 Statistics are like so: 0 == 5 1 == 2 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.714286 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.285714 expected payoff == 0.285714
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 8
+
+#rounds == 8 Statistics are like so: 0 == 6 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.75 expected payoff == 1.5
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.25 expected payoff == 1
+Player I: best value @ 1 -> 1.5
+#rounds == 8 Statistics are like so: 0 == 5 1 == 3 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.625 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.375 expected payoff == 0.375
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 9
+
+#rounds == 9 Statistics are like so: 0 == 7 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.777778 expected payoff == 1.55556
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.222222 expected payoff == 0.888889
+Player I: best value @ 1 -> 1.55556
+#rounds == 9 Statistics are like so: 0 == 5 1 == 4 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.555556 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.444444 expected payoff == 0.444444
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 10
+
+#rounds == 10 Statistics are like so: 0 == 8 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.8 expected payoff == 1.6
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.2 expected payoff == 0.8
+Player I: best value @ 1 -> 1.6
+#rounds == 10 Statistics are like so: 0 == 5 1 == 5 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.5 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.5 expected payoff == 0.5
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 11
+
+#rounds == 11 Statistics are like so: 0 == 9 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.818182 expected payoff == 1.63636
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.181818 expected payoff == 0.727273
+Player I: best value @ 1 -> 1.63636
+#rounds == 11 Statistics are like so: 0 == 5 1 == 6 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.454545 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.545455 expected payoff == 0.545455
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 12
+
+#rounds == 12 Statistics are like so: 0 == 10 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.833333 expected payoff == 1.66667
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.166667 expected payoff == 0.666667
+Player I: best value @ 1 -> 1.66667
+#rounds == 12 Statistics are like so: 0 == 5 1 == 7 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.416667 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.583333 expected payoff == 0.583333
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 13
+
+#rounds == 13 Statistics are like so: 0 == 11 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.846154 expected payoff == 1.69231
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.153846 expected payoff == 0.615385
+Player I: best value @ 1 -> 1.69231
+#rounds == 13 Statistics are like so: 0 == 5 1 == 8 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.384615 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.615385 expected payoff == 0.615385
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 14
+
+#rounds == 14 Statistics are like so: 0 == 12 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.857143 expected payoff == 1.71429
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.142857 expected payoff == 0.571429
+Player I: best value @ 1 -> 1.71429
+#rounds == 14 Statistics are like so: 0 == 5 1 == 9 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.357143 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.642857 expected payoff == 0.642857
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 15
+
+#rounds == 15 Statistics are like so: 0 == 13 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.866667 expected payoff == 1.73333
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.133333 expected payoff == 0.533333
+Player I: best value @ 1 -> 1.73333
+#rounds == 15 Statistics are like so: 0 == 5 1 == 10 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.333333 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.666667 expected payoff == 0.666667
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 16
+
+#rounds == 16 Statistics are like so: 0 == 14 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.875 expected payoff == 1.75
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.125 expected payoff == 0.5
+Player I: best value @ 1 -> 1.75
+#rounds == 16 Statistics are like so: 0 == 5 1 == 11 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.3125 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.6875 expected payoff == 0.6875
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 17
+
+#rounds == 17 Statistics are like so: 0 == 15 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.882353 expected payoff == 1.76471
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.117647 expected payoff == 0.470588
+Player I: best value @ 1 -> 1.76471
+#rounds == 17 Statistics are like so: 0 == 5 1 == 12 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.294118 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.705882 expected payoff == 0.705882
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 18
+
+#rounds == 18 Statistics are like so: 0 == 16 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.888889 expected payoff == 1.77778
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.111111 expected payoff == 0.444444
+Player I: best value @ 1 -> 1.77778
+#rounds == 18 Statistics are like so: 0 == 5 1 == 13 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.277778 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.722222 expected payoff == 0.722222
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 19
+
+#rounds == 19 Statistics are like so: 0 == 17 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.894737 expected payoff == 1.78947
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.105263 expected payoff == 0.421053
+Player I: best value @ 1 -> 1.78947
+#rounds == 19 Statistics are like so: 0 == 5 1 == 14 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.263158 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.736842 expected payoff == 0.736842
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 20
+
+#rounds == 20 Statistics are like so: 0 == 18 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.9 expected payoff == 1.8
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.1 expected payoff == 0.4
+Player I: best value @ 1 -> 1.8
+#rounds == 20 Statistics are like so: 0 == 5 1 == 15 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.25 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.75 expected payoff == 0.75
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 21
+
+#rounds == 21 Statistics are like so: 0 == 19 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.904762 expected payoff == 1.80952
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0952381 expected payoff == 0.380952
+Player I: best value @ 1 -> 1.80952
+#rounds == 21 Statistics are like so: 0 == 5 1 == 16 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.238095 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.761905 expected payoff == 0.761905
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 22
+
+#rounds == 22 Statistics are like so: 0 == 20 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.909091 expected payoff == 1.81818
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0909091 expected payoff == 0.363636
+Player I: best value @ 1 -> 1.81818
+#rounds == 22 Statistics are like so: 0 == 5 1 == 17 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.227273 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.772727 expected payoff == 0.772727
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 23
+
+#rounds == 23 Statistics are like so: 0 == 21 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.913043 expected payoff == 1.82609
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0869565 expected payoff == 0.347826
+Player I: best value @ 1 -> 1.82609
+#rounds == 23 Statistics are like so: 0 == 5 1 == 18 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.217391 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.782609 expected payoff == 0.782609
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 24
+
+#rounds == 24 Statistics are like so: 0 == 22 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.916667 expected payoff == 1.83333
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0833333 expected payoff == 0.333333
+Player I: best value @ 1 -> 1.83333
+#rounds == 24 Statistics are like so: 0 == 5 1 == 19 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.208333 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.791667 expected payoff == 0.791667
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 25
+
+#rounds == 25 Statistics are like so: 0 == 23 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.92 expected payoff == 1.84
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.08 expected payoff == 0.32
+Player I: best value @ 1 -> 1.84
+#rounds == 25 Statistics are like so: 0 == 5 1 == 20 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.2 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.8 expected payoff == 0.8
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 26
+
+#rounds == 26 Statistics are like so: 0 == 24 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.923077 expected payoff == 1.84615
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0769231 expected payoff == 0.307692
+Player I: best value @ 1 -> 1.84615
+#rounds == 26 Statistics are like so: 0 == 5 1 == 21 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.192308 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.807692 expected payoff == 0.807692
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 27
+
+#rounds == 27 Statistics are like so: 0 == 25 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.925926 expected payoff == 1.85185
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0740741 expected payoff == 0.296296
+Player I: best value @ 1 -> 1.85185
+#rounds == 27 Statistics are like so: 0 == 5 1 == 22 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.185185 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.814815 expected payoff == 0.814815
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 28
+
+#rounds == 28 Statistics are like so: 0 == 26 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.928571 expected payoff == 1.85714
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0714286 expected payoff == 0.285714
+Player I: best value @ 1 -> 1.85714
+#rounds == 28 Statistics are like so: 0 == 5 1 == 23 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.178571 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.821429 expected payoff == 0.821429
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 29
+
+#rounds == 29 Statistics are like so: 0 == 27 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.931034 expected payoff == 1.86207
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0689655 expected payoff == 0.275862
+Player I: best value @ 1 -> 1.86207
+#rounds == 29 Statistics are like so: 0 == 5 1 == 24 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.172414 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.827586 expected payoff == 0.827586
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 30
+
+#rounds == 30 Statistics are like so: 0 == 28 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.933333 expected payoff == 1.86667
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0666667 expected payoff == 0.266667
+Player I: best value @ 1 -> 1.86667
+#rounds == 30 Statistics are like so: 0 == 5 1 == 25 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.166667 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.833333 expected payoff == 0.833333
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 31
+
+#rounds == 31 Statistics are like so: 0 == 29 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.935484 expected payoff == 1.87097
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0645161 expected payoff == 0.258065
+Player I: best value @ 1 -> 1.87097
+#rounds == 31 Statistics are like so: 0 == 5 1 == 26 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.16129 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.83871 expected payoff == 0.83871
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 32
+
+#rounds == 32 Statistics are like so: 0 == 30 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.9375 expected payoff == 1.875
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0625 expected payoff == 0.25
+Player I: best value @ 1 -> 1.875
+#rounds == 32 Statistics are like so: 0 == 5 1 == 27 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.15625 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.84375 expected payoff == 0.84375
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 33
+
+#rounds == 33 Statistics are like so: 0 == 31 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.939394 expected payoff == 1.87879
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0606061 expected payoff == 0.242424
+Player I: best value @ 1 -> 1.87879
+#rounds == 33 Statistics are like so: 0 == 5 1 == 28 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.151515 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.848485 expected payoff == 0.848485
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 34
+
+#rounds == 34 Statistics are like so: 0 == 32 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.941176 expected payoff == 1.88235
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0588235 expected payoff == 0.235294
+Player I: best value @ 1 -> 1.88235
+#rounds == 34 Statistics are like so: 0 == 5 1 == 29 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.147059 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.852941 expected payoff == 0.852941
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 35
+
+#rounds == 35 Statistics are like so: 0 == 33 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.942857 expected payoff == 1.88571
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0571429 expected payoff == 0.228571
+Player I: best value @ 1 -> 1.88571
+#rounds == 35 Statistics are like so: 0 == 5 1 == 30 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.142857 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.857143 expected payoff == 0.857143
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 36
+
+#rounds == 36 Statistics are like so: 0 == 34 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.944444 expected payoff == 1.88889
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0555556 expected payoff == 0.222222
+Player I: best value @ 1 -> 1.88889
+#rounds == 36 Statistics are like so: 0 == 5 1 == 31 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.138889 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.861111 expected payoff == 0.861111
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 37
+
+#rounds == 37 Statistics are like so: 0 == 35 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.945946 expected payoff == 1.89189
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0540541 expected payoff == 0.216216
+Player I: best value @ 1 -> 1.89189
+#rounds == 37 Statistics are like so: 0 == 5 1 == 32 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.135135 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.864865 expected payoff == 0.864865
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 38
+
+#rounds == 38 Statistics are like so: 0 == 36 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.947368 expected payoff == 1.89474
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0526316 expected payoff == 0.210526
+Player I: best value @ 1 -> 1.89474
+#rounds == 38 Statistics are like so: 0 == 5 1 == 33 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.131579 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.868421 expected payoff == 0.868421
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 39
+
+#rounds == 39 Statistics are like so: 0 == 37 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.948718 expected payoff == 1.89744
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0512821 expected payoff == 0.205128
+Player I: best value @ 1 -> 1.89744
+#rounds == 39 Statistics are like so: 0 == 5 1 == 34 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.128205 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.871795 expected payoff == 0.871795
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 40
+
+#rounds == 40 Statistics are like so: 0 == 38 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.95 expected payoff == 1.9
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.05 expected payoff == 0.2
+Player I: best value @ 1 -> 1.9
+#rounds == 40 Statistics are like so: 0 == 5 1 == 35 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.125 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.875 expected payoff == 0.875
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 41
+
+#rounds == 41 Statistics are like so: 0 == 39 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.95122 expected payoff == 1.90244
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0487805 expected payoff == 0.195122
+Player I: best value @ 1 -> 1.90244
+#rounds == 41 Statistics are like so: 0 == 5 1 == 36 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.121951 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.878049 expected payoff == 0.878049
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 42
+
+#rounds == 42 Statistics are like so: 0 == 40 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.952381 expected payoff == 1.90476
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.047619 expected payoff == 0.190476
+Player I: best value @ 1 -> 1.90476
+#rounds == 42 Statistics are like so: 0 == 5 1 == 37 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.119048 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.880952 expected payoff == 0.880952
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 43
+
+#rounds == 43 Statistics are like so: 0 == 41 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.953488 expected payoff == 1.90698
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0465116 expected payoff == 0.186047
+Player I: best value @ 1 -> 1.90698
+#rounds == 43 Statistics are like so: 0 == 5 1 == 38 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.116279 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.883721 expected payoff == 0.883721
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 44
+
+#rounds == 44 Statistics are like so: 0 == 42 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.954545 expected payoff == 1.90909
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0454545 expected payoff == 0.181818
+Player I: best value @ 1 -> 1.90909
+#rounds == 44 Statistics are like so: 0 == 5 1 == 39 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.113636 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.886364 expected payoff == 0.886364
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 45
+
+#rounds == 45 Statistics are like so: 0 == 43 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.955556 expected payoff == 1.91111
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0444444 expected payoff == 0.177778
+Player I: best value @ 1 -> 1.91111
+#rounds == 45 Statistics are like so: 0 == 5 1 == 40 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.111111 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.888889 expected payoff == 0.888889
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 46
+
+#rounds == 46 Statistics are like so: 0 == 44 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.956522 expected payoff == 1.91304
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0434783 expected payoff == 0.173913
+Player I: best value @ 1 -> 1.91304
+#rounds == 46 Statistics are like so: 0 == 5 1 == 41 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.108696 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.891304 expected payoff == 0.891304
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 47
+
+#rounds == 47 Statistics are like so: 0 == 45 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.957447 expected payoff == 1.91489
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0425532 expected payoff == 0.170213
+Player I: best value @ 1 -> 1.91489
+#rounds == 47 Statistics are like so: 0 == 5 1 == 42 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.106383 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.893617 expected payoff == 0.893617
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 48
+
+#rounds == 48 Statistics are like so: 0 == 46 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.958333 expected payoff == 1.91667
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0416667 expected payoff == 0.166667
+Player I: best value @ 1 -> 1.91667
+#rounds == 48 Statistics are like so: 0 == 5 1 == 43 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.104167 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.895833 expected payoff == 0.895833
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 49
+
+#rounds == 49 Statistics are like so: 0 == 47 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.959184 expected payoff == 1.91837
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0408163 expected payoff == 0.163265
+Player I: best value @ 1 -> 1.91837
+#rounds == 49 Statistics are like so: 0 == 5 1 == 44 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.102041 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.897959 expected payoff == 0.897959
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 50
+
+#rounds == 50 Statistics are like so: 0 == 48 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.96 expected payoff == 1.92
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.04 expected payoff == 0.16
+Player I: best value @ 1 -> 1.92
+#rounds == 50 Statistics are like so: 0 == 5 1 == 45 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.1 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.9 expected payoff == 0.9
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 51
+
+#rounds == 51 Statistics are like so: 0 == 49 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.960784 expected payoff == 1.92157
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0392157 expected payoff == 0.156863
+Player I: best value @ 1 -> 1.92157
+#rounds == 51 Statistics are like so: 0 == 5 1 == 46 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0980392 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.901961 expected payoff == 0.901961
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 52
+
+#rounds == 52 Statistics are like so: 0 == 50 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.961538 expected payoff == 1.92308
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0384615 expected payoff == 0.153846
+Player I: best value @ 1 -> 1.92308
+#rounds == 52 Statistics are like so: 0 == 5 1 == 47 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0961538 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.903846 expected payoff == 0.903846
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 53
+
+#rounds == 53 Statistics are like so: 0 == 51 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.962264 expected payoff == 1.92453
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0377358 expected payoff == 0.150943
+Player I: best value @ 1 -> 1.92453
+#rounds == 53 Statistics are like so: 0 == 5 1 == 48 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0943396 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.90566 expected payoff == 0.90566
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 54
+
+#rounds == 54 Statistics are like so: 0 == 52 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.962963 expected payoff == 1.92593
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.037037 expected payoff == 0.148148
+Player I: best value @ 1 -> 1.92593
+#rounds == 54 Statistics are like so: 0 == 5 1 == 49 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0925926 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.907407 expected payoff == 0.907407
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 55
+
+#rounds == 55 Statistics are like so: 0 == 53 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.963636 expected payoff == 1.92727
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0363636 expected payoff == 0.145455
+Player I: best value @ 1 -> 1.92727
+#rounds == 55 Statistics are like so: 0 == 5 1 == 50 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0909091 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.909091 expected payoff == 0.909091
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 56
+
+#rounds == 56 Statistics are like so: 0 == 54 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.964286 expected payoff == 1.92857
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0357143 expected payoff == 0.142857
+Player I: best value @ 1 -> 1.92857
+#rounds == 56 Statistics are like so: 0 == 5 1 == 51 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0892857 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.910714 expected payoff == 0.910714
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 57
+
+#rounds == 57 Statistics are like so: 0 == 55 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.964912 expected payoff == 1.92982
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0350877 expected payoff == 0.140351
+Player I: best value @ 1 -> 1.92982
+#rounds == 57 Statistics are like so: 0 == 5 1 == 52 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0877193 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.912281 expected payoff == 0.912281
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 58
+
+#rounds == 58 Statistics are like so: 0 == 56 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.965517 expected payoff == 1.93103
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0344828 expected payoff == 0.137931
+Player I: best value @ 1 -> 1.93103
+#rounds == 58 Statistics are like so: 0 == 5 1 == 53 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0862069 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.913793 expected payoff == 0.913793
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 59
+
+#rounds == 59 Statistics are like so: 0 == 57 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.966102 expected payoff == 1.9322
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0338983 expected payoff == 0.135593
+Player I: best value @ 1 -> 1.9322
+#rounds == 59 Statistics are like so: 0 == 5 1 == 54 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0847458 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.915254 expected payoff == 0.915254
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 60
+
+#rounds == 60 Statistics are like so: 0 == 58 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.966667 expected payoff == 1.93333
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0333333 expected payoff == 0.133333
+Player I: best value @ 1 -> 1.93333
+#rounds == 60 Statistics are like so: 0 == 5 1 == 55 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0833333 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.916667 expected payoff == 0.916667
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 61
+
+#rounds == 61 Statistics are like so: 0 == 59 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.967213 expected payoff == 1.93443
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0327869 expected payoff == 0.131148
+Player I: best value @ 1 -> 1.93443
+#rounds == 61 Statistics are like so: 0 == 5 1 == 56 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0819672 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.918033 expected payoff == 0.918033
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 62
+
+#rounds == 62 Statistics are like so: 0 == 60 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.967742 expected payoff == 1.93548
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0322581 expected payoff == 0.129032
+Player I: best value @ 1 -> 1.93548
+#rounds == 62 Statistics are like so: 0 == 5 1 == 57 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0806452 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.919355 expected payoff == 0.919355
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 63
+
+#rounds == 63 Statistics are like so: 0 == 61 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.968254 expected payoff == 1.93651
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.031746 expected payoff == 0.126984
+Player I: best value @ 1 -> 1.93651
+#rounds == 63 Statistics are like so: 0 == 5 1 == 58 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0793651 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.920635 expected payoff == 0.920635
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 64
+
+#rounds == 64 Statistics are like so: 0 == 62 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.96875 expected payoff == 1.9375
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.03125 expected payoff == 0.125
+Player I: best value @ 1 -> 1.9375
+#rounds == 64 Statistics are like so: 0 == 5 1 == 59 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.078125 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.921875 expected payoff == 0.921875
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 65
+
+#rounds == 65 Statistics are like so: 0 == 63 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.969231 expected payoff == 1.93846
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0307692 expected payoff == 0.123077
+Player I: best value @ 1 -> 1.93846
+#rounds == 65 Statistics are like so: 0 == 5 1 == 60 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0769231 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.923077 expected payoff == 0.923077
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 66
+
+#rounds == 66 Statistics are like so: 0 == 64 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.969697 expected payoff == 1.93939
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.030303 expected payoff == 0.121212
+Player I: best value @ 1 -> 1.93939
+#rounds == 66 Statistics are like so: 0 == 5 1 == 61 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0757576 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.924242 expected payoff == 0.924242
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 67
+
+#rounds == 67 Statistics are like so: 0 == 65 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.970149 expected payoff == 1.9403
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0298507 expected payoff == 0.119403
+Player I: best value @ 1 -> 1.9403
+#rounds == 67 Statistics are like so: 0 == 5 1 == 62 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0746269 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.925373 expected payoff == 0.925373
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 68
+
+#rounds == 68 Statistics are like so: 0 == 66 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.970588 expected payoff == 1.94118
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0294118 expected payoff == 0.117647
+Player I: best value @ 1 -> 1.94118
+#rounds == 68 Statistics are like so: 0 == 5 1 == 63 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0735294 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.926471 expected payoff == 0.926471
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 69
+
+#rounds == 69 Statistics are like so: 0 == 67 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.971014 expected payoff == 1.94203
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0289855 expected payoff == 0.115942
+Player I: best value @ 1 -> 1.94203
+#rounds == 69 Statistics are like so: 0 == 5 1 == 64 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0724638 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.927536 expected payoff == 0.927536
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 70
+
+#rounds == 70 Statistics are like so: 0 == 68 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.971429 expected payoff == 1.94286
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0285714 expected payoff == 0.114286
+Player I: best value @ 1 -> 1.94286
+#rounds == 70 Statistics are like so: 0 == 5 1 == 65 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0714286 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.928571 expected payoff == 0.928571
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 71
+
+#rounds == 71 Statistics are like so: 0 == 69 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.971831 expected payoff == 1.94366
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.028169 expected payoff == 0.112676
+Player I: best value @ 1 -> 1.94366
+#rounds == 71 Statistics are like so: 0 == 5 1 == 66 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0704225 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.929577 expected payoff == 0.929577
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 72
+
+#rounds == 72 Statistics are like so: 0 == 70 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.972222 expected payoff == 1.94444
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0277778 expected payoff == 0.111111
+Player I: best value @ 1 -> 1.94444
+#rounds == 72 Statistics are like so: 0 == 5 1 == 67 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0694444 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.930556 expected payoff == 0.930556
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 73
+
+#rounds == 73 Statistics are like so: 0 == 71 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.972603 expected payoff == 1.94521
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0273973 expected payoff == 0.109589
+Player I: best value @ 1 -> 1.94521
+#rounds == 73 Statistics are like so: 0 == 5 1 == 68 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0684932 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.931507 expected payoff == 0.931507
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 74
+
+#rounds == 74 Statistics are like so: 0 == 72 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.972973 expected payoff == 1.94595
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.027027 expected payoff == 0.108108
+Player I: best value @ 1 -> 1.94595
+#rounds == 74 Statistics are like so: 0 == 5 1 == 69 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0675676 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.932432 expected payoff == 0.932432
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 75
+
+#rounds == 75 Statistics are like so: 0 == 73 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.973333 expected payoff == 1.94667
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0266667 expected payoff == 0.106667
+Player I: best value @ 1 -> 1.94667
+#rounds == 75 Statistics are like so: 0 == 5 1 == 70 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0666667 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.933333 expected payoff == 0.933333
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 76
+
+#rounds == 76 Statistics are like so: 0 == 74 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.973684 expected payoff == 1.94737
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0263158 expected payoff == 0.105263
+Player I: best value @ 1 -> 1.94737
+#rounds == 76 Statistics are like so: 0 == 5 1 == 71 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0657895 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.934211 expected payoff == 0.934211
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 77
+
+#rounds == 77 Statistics are like so: 0 == 75 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.974026 expected payoff == 1.94805
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.025974 expected payoff == 0.103896
+Player I: best value @ 1 -> 1.94805
+#rounds == 77 Statistics are like so: 0 == 5 1 == 72 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0649351 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.935065 expected payoff == 0.935065
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 78
+
+#rounds == 78 Statistics are like so: 0 == 76 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.974359 expected payoff == 1.94872
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.025641 expected payoff == 0.102564
+Player I: best value @ 1 -> 1.94872
+#rounds == 78 Statistics are like so: 0 == 5 1 == 73 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0641026 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.935897 expected payoff == 0.935897
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 79
+
+#rounds == 79 Statistics are like so: 0 == 77 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.974684 expected payoff == 1.94937
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0253165 expected payoff == 0.101266
+Player I: best value @ 1 -> 1.94937
+#rounds == 79 Statistics are like so: 0 == 5 1 == 74 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0632911 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.936709 expected payoff == 0.936709
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 80
+
+#rounds == 80 Statistics are like so: 0 == 78 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.975 expected payoff == 1.95
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.025 expected payoff == 0.1
+Player I: best value @ 1 -> 1.95
+#rounds == 80 Statistics are like so: 0 == 5 1 == 75 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0625 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.9375 expected payoff == 0.9375
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 81
+
+#rounds == 81 Statistics are like so: 0 == 79 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.975309 expected payoff == 1.95062
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0246914 expected payoff == 0.0987654
+Player I: best value @ 1 -> 1.95062
+#rounds == 81 Statistics are like so: 0 == 5 1 == 76 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0617284 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.938272 expected payoff == 0.938272
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 82
+
+#rounds == 82 Statistics are like so: 0 == 80 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.97561 expected payoff == 1.95122
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0243902 expected payoff == 0.097561
+Player I: best value @ 1 -> 1.95122
+#rounds == 82 Statistics are like so: 0 == 5 1 == 77 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0609756 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.939024 expected payoff == 0.939024
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 83
+
+#rounds == 83 Statistics are like so: 0 == 81 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.975904 expected payoff == 1.95181
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0240964 expected payoff == 0.0963855
+Player I: best value @ 1 -> 1.95181
+#rounds == 83 Statistics are like so: 0 == 5 1 == 78 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.060241 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.939759 expected payoff == 0.939759
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 84
+
+#rounds == 84 Statistics are like so: 0 == 82 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.97619 expected payoff == 1.95238
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0238095 expected payoff == 0.0952381
+Player I: best value @ 1 -> 1.95238
+#rounds == 84 Statistics are like so: 0 == 5 1 == 79 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0595238 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.940476 expected payoff == 0.940476
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 85
+
+#rounds == 85 Statistics are like so: 0 == 83 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.976471 expected payoff == 1.95294
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0235294 expected payoff == 0.0941176
+Player I: best value @ 1 -> 1.95294
+#rounds == 85 Statistics are like so: 0 == 5 1 == 80 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0588235 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.941176 expected payoff == 0.941176
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 86
+
+#rounds == 86 Statistics are like so: 0 == 84 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.976744 expected payoff == 1.95349
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0232558 expected payoff == 0.0930233
+Player I: best value @ 1 -> 1.95349
+#rounds == 86 Statistics are like so: 0 == 5 1 == 81 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0581395 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.94186 expected payoff == 0.94186
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 87
+
+#rounds == 87 Statistics are like so: 0 == 85 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.977011 expected payoff == 1.95402
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0229885 expected payoff == 0.091954
+Player I: best value @ 1 -> 1.95402
+#rounds == 87 Statistics are like so: 0 == 5 1 == 82 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0574713 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.942529 expected payoff == 0.942529
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 88
+
+#rounds == 88 Statistics are like so: 0 == 86 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.977273 expected payoff == 1.95455
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0227273 expected payoff == 0.0909091
+Player I: best value @ 1 -> 1.95455
+#rounds == 88 Statistics are like so: 0 == 5 1 == 83 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0568182 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.943182 expected payoff == 0.943182
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 89
+
+#rounds == 89 Statistics are like so: 0 == 87 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.977528 expected payoff == 1.95506
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0224719 expected payoff == 0.0898876
+Player I: best value @ 1 -> 1.95506
+#rounds == 89 Statistics are like so: 0 == 5 1 == 84 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0561798 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.94382 expected payoff == 0.94382
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 90
+
+#rounds == 90 Statistics are like so: 0 == 88 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.977778 expected payoff == 1.95556
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0222222 expected payoff == 0.0888889
+Player I: best value @ 1 -> 1.95556
+#rounds == 90 Statistics are like so: 0 == 5 1 == 85 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0555556 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.944444 expected payoff == 0.944444
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 91
+
+#rounds == 91 Statistics are like so: 0 == 89 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.978022 expected payoff == 1.95604
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.021978 expected payoff == 0.0879121
+Player I: best value @ 1 -> 1.95604
+#rounds == 91 Statistics are like so: 0 == 5 1 == 86 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0549451 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.945055 expected payoff == 0.945055
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 92
+
+#rounds == 92 Statistics are like so: 0 == 90 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.978261 expected payoff == 1.95652
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0217391 expected payoff == 0.0869565
+Player I: best value @ 1 -> 1.95652
+#rounds == 92 Statistics are like so: 0 == 5 1 == 87 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0543478 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.945652 expected payoff == 0.945652
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 93
+
+#rounds == 93 Statistics are like so: 0 == 91 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.978495 expected payoff == 1.95699
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0215054 expected payoff == 0.0860215
+Player I: best value @ 1 -> 1.95699
+#rounds == 93 Statistics are like so: 0 == 5 1 == 88 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0537634 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.946237 expected payoff == 0.946237
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 94
+
+#rounds == 94 Statistics are like so: 0 == 92 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.978723 expected payoff == 1.95745
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0212766 expected payoff == 0.0851064
+Player I: best value @ 1 -> 1.95745
+#rounds == 94 Statistics are like so: 0 == 5 1 == 89 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0531915 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.946809 expected payoff == 0.946809
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 95
+
+#rounds == 95 Statistics are like so: 0 == 93 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.978947 expected payoff == 1.95789
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0210526 expected payoff == 0.0842105
+Player I: best value @ 1 -> 1.95789
+#rounds == 95 Statistics are like so: 0 == 5 1 == 90 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0526316 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.947368 expected payoff == 0.947368
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 96
+
+#rounds == 96 Statistics are like so: 0 == 94 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.979167 expected payoff == 1.95833
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0208333 expected payoff == 0.0833333
+Player I: best value @ 1 -> 1.95833
+#rounds == 96 Statistics are like so: 0 == 5 1 == 91 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0520833 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.947917 expected payoff == 0.947917
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 97
+
+#rounds == 97 Statistics are like so: 0 == 95 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.979381 expected payoff == 1.95876
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0206186 expected payoff == 0.0824742
+Player I: best value @ 1 -> 1.95876
+#rounds == 97 Statistics are like so: 0 == 5 1 == 92 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0515464 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.948454 expected payoff == 0.948454
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 98
+
+#rounds == 98 Statistics are like so: 0 == 96 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.979592 expected payoff == 1.95918
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0204082 expected payoff == 0.0816327
+Player I: best value @ 1 -> 1.95918
+#rounds == 98 Statistics are like so: 0 == 5 1 == 93 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0510204 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.94898 expected payoff == 0.94898
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 99
+
+#rounds == 99 Statistics are like so: 0 == 97 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.979798 expected payoff == 1.9596
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.020202 expected payoff == 0.0808081
+Player I: best value @ 1 -> 1.9596
+#rounds == 99 Statistics are like so: 0 == 5 1 == 94 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0505051 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.949495 expected payoff == 0.949495
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 100
+
+#rounds == 100 Statistics are like so: 0 == 98 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.98 expected payoff == 1.96
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.02 expected payoff == 0.08
+Player I: best value @ 1 -> 1.96
+#rounds == 100 Statistics are like so: 0 == 5 1 == 95 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.05 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.95 expected payoff == 0.95
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 101
+
+#rounds == 101 Statistics are like so: 0 == 99 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.980198 expected payoff == 1.9604
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.019802 expected payoff == 0.0792079
+Player I: best value @ 1 -> 1.9604
+#rounds == 101 Statistics are like so: 0 == 5 1 == 96 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.049505 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.950495 expected payoff == 0.950495
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 102
+
+#rounds == 102 Statistics are like so: 0 == 100 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.980392 expected payoff == 1.96078
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0196078 expected payoff == 0.0784314
+Player I: best value @ 1 -> 1.96078
+#rounds == 102 Statistics are like so: 0 == 5 1 == 97 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0490196 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.95098 expected payoff == 0.95098
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 103
+
+#rounds == 103 Statistics are like so: 0 == 101 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.980583 expected payoff == 1.96117
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0194175 expected payoff == 0.0776699
+Player I: best value @ 1 -> 1.96117
+#rounds == 103 Statistics are like so: 0 == 5 1 == 98 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0485437 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.951456 expected payoff == 0.951456
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 104
+
+#rounds == 104 Statistics are like so: 0 == 102 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.980769 expected payoff == 1.96154
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0192308 expected payoff == 0.0769231
+Player I: best value @ 1 -> 1.96154
+#rounds == 104 Statistics are like so: 0 == 5 1 == 99 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0480769 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.951923 expected payoff == 0.951923
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 105
+
+#rounds == 105 Statistics are like so: 0 == 103 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.980952 expected payoff == 1.9619
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0190476 expected payoff == 0.0761905
+Player I: best value @ 1 -> 1.9619
+#rounds == 105 Statistics are like so: 0 == 5 1 == 100 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.047619 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.952381 expected payoff == 0.952381
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 106
+
+#rounds == 106 Statistics are like so: 0 == 104 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.981132 expected payoff == 1.96226
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0188679 expected payoff == 0.0754717
+Player I: best value @ 1 -> 1.96226
+#rounds == 106 Statistics are like so: 0 == 5 1 == 101 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0471698 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.95283 expected payoff == 0.95283
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 107
+
+#rounds == 107 Statistics are like so: 0 == 105 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.981308 expected payoff == 1.96262
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0186916 expected payoff == 0.0747664
+Player I: best value @ 1 -> 1.96262
+#rounds == 107 Statistics are like so: 0 == 5 1 == 102 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.046729 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.953271 expected payoff == 0.953271
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 108
+
+#rounds == 108 Statistics are like so: 0 == 106 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.981481 expected payoff == 1.96296
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0185185 expected payoff == 0.0740741
+Player I: best value @ 1 -> 1.96296
+#rounds == 108 Statistics are like so: 0 == 5 1 == 103 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0462963 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.953704 expected payoff == 0.953704
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 109
+
+#rounds == 109 Statistics are like so: 0 == 107 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.981651 expected payoff == 1.9633
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0183486 expected payoff == 0.0733945
+Player I: best value @ 1 -> 1.9633
+#rounds == 109 Statistics are like so: 0 == 5 1 == 104 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0458716 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.954128 expected payoff == 0.954128
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 110
+
+#rounds == 110 Statistics are like so: 0 == 108 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.981818 expected payoff == 1.96364
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0181818 expected payoff == 0.0727273
+Player I: best value @ 1 -> 1.96364
+#rounds == 110 Statistics are like so: 0 == 5 1 == 105 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0454545 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.954545 expected payoff == 0.954545
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 111
+
+#rounds == 111 Statistics are like so: 0 == 109 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.981982 expected payoff == 1.96396
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.018018 expected payoff == 0.0720721
+Player I: best value @ 1 -> 1.96396
+#rounds == 111 Statistics are like so: 0 == 5 1 == 106 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.045045 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.954955 expected payoff == 0.954955
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 112
+
+#rounds == 112 Statistics are like so: 0 == 110 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.982143 expected payoff == 1.96429
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0178571 expected payoff == 0.0714286
+Player I: best value @ 1 -> 1.96429
+#rounds == 112 Statistics are like so: 0 == 5 1 == 107 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0446429 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.955357 expected payoff == 0.955357
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 113
+
+#rounds == 113 Statistics are like so: 0 == 111 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.982301 expected payoff == 1.9646
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0176991 expected payoff == 0.0707965
+Player I: best value @ 1 -> 1.9646
+#rounds == 113 Statistics are like so: 0 == 5 1 == 108 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0442478 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.955752 expected payoff == 0.955752
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 114
+
+#rounds == 114 Statistics are like so: 0 == 112 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.982456 expected payoff == 1.96491
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0175439 expected payoff == 0.0701754
+Player I: best value @ 1 -> 1.96491
+#rounds == 114 Statistics are like so: 0 == 5 1 == 109 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0438596 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.95614 expected payoff == 0.95614
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 115
+
+#rounds == 115 Statistics are like so: 0 == 113 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.982609 expected payoff == 1.96522
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0173913 expected payoff == 0.0695652
+Player I: best value @ 1 -> 1.96522
+#rounds == 115 Statistics are like so: 0 == 5 1 == 110 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0434783 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.956522 expected payoff == 0.956522
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 116
+
+#rounds == 116 Statistics are like so: 0 == 114 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.982759 expected payoff == 1.96552
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0172414 expected payoff == 0.0689655
+Player I: best value @ 1 -> 1.96552
+#rounds == 116 Statistics are like so: 0 == 5 1 == 111 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0431034 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.956897 expected payoff == 0.956897
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 117
+
+#rounds == 117 Statistics are like so: 0 == 115 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.982906 expected payoff == 1.96581
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.017094 expected payoff == 0.0683761
+Player I: best value @ 1 -> 1.96581
+#rounds == 117 Statistics are like so: 0 == 5 1 == 112 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.042735 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.957265 expected payoff == 0.957265
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 118
+
+#rounds == 118 Statistics are like so: 0 == 116 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.983051 expected payoff == 1.9661
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0169492 expected payoff == 0.0677966
+Player I: best value @ 1 -> 1.9661
+#rounds == 118 Statistics are like so: 0 == 5 1 == 113 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0423729 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.957627 expected payoff == 0.957627
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 119
+
+#rounds == 119 Statistics are like so: 0 == 117 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.983193 expected payoff == 1.96639
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0168067 expected payoff == 0.0672269
+Player I: best value @ 1 -> 1.96639
+#rounds == 119 Statistics are like so: 0 == 5 1 == 114 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0420168 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.957983 expected payoff == 0.957983
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 120
+
+#rounds == 120 Statistics are like so: 0 == 118 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.983333 expected payoff == 1.96667
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0166667 expected payoff == 0.0666667
+Player I: best value @ 1 -> 1.96667
+#rounds == 120 Statistics are like so: 0 == 5 1 == 115 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0416667 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.958333 expected payoff == 0.958333
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 121
+
+#rounds == 121 Statistics are like so: 0 == 119 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.983471 expected payoff == 1.96694
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0165289 expected payoff == 0.0661157
+Player I: best value @ 1 -> 1.96694
+#rounds == 121 Statistics are like so: 0 == 5 1 == 116 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0413223 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.958678 expected payoff == 0.958678
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 122
+
+#rounds == 122 Statistics are like so: 0 == 120 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.983607 expected payoff == 1.96721
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0163934 expected payoff == 0.0655738
+Player I: best value @ 1 -> 1.96721
+#rounds == 122 Statistics are like so: 0 == 5 1 == 117 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0409836 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.959016 expected payoff == 0.959016
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 123
+
+#rounds == 123 Statistics are like so: 0 == 121 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.98374 expected payoff == 1.96748
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0162602 expected payoff == 0.0650407
+Player I: best value @ 1 -> 1.96748
+#rounds == 123 Statistics are like so: 0 == 5 1 == 118 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0406504 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.95935 expected payoff == 0.95935
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 124
+
+#rounds == 124 Statistics are like so: 0 == 122 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.983871 expected payoff == 1.96774
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.016129 expected payoff == 0.0645161
+Player I: best value @ 1 -> 1.96774
+#rounds == 124 Statistics are like so: 0 == 5 1 == 119 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0403226 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.959677 expected payoff == 0.959677
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 125
+
+#rounds == 125 Statistics are like so: 0 == 123 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.984 expected payoff == 1.968
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.016 expected payoff == 0.064
+Player I: best value @ 1 -> 1.968
+#rounds == 125 Statistics are like so: 0 == 5 1 == 120 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.04 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.96 expected payoff == 0.96
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 126
+
+#rounds == 126 Statistics are like so: 0 == 124 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.984127 expected payoff == 1.96825
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.015873 expected payoff == 0.0634921
+Player I: best value @ 1 -> 1.96825
+#rounds == 126 Statistics are like so: 0 == 5 1 == 121 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0396825 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.960317 expected payoff == 0.960317
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 127
+
+#rounds == 127 Statistics are like so: 0 == 125 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.984252 expected payoff == 1.9685
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.015748 expected payoff == 0.0629921
+Player I: best value @ 1 -> 1.9685
+#rounds == 127 Statistics are like so: 0 == 5 1 == 122 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0393701 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.96063 expected payoff == 0.96063
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 128
+
+#rounds == 128 Statistics are like so: 0 == 126 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.984375 expected payoff == 1.96875
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.015625 expected payoff == 0.0625
+Player I: best value @ 1 -> 1.96875
+#rounds == 128 Statistics are like so: 0 == 5 1 == 123 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0390625 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.960938 expected payoff == 0.960938
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 129
+
+#rounds == 129 Statistics are like so: 0 == 127 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.984496 expected payoff == 1.96899
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0155039 expected payoff == 0.0620155
+Player I: best value @ 1 -> 1.96899
+#rounds == 129 Statistics are like so: 0 == 5 1 == 124 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0387597 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.96124 expected payoff == 0.96124
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 130
+
+#rounds == 130 Statistics are like so: 0 == 128 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.984615 expected payoff == 1.96923
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0153846 expected payoff == 0.0615385
+Player I: best value @ 1 -> 1.96923
+#rounds == 130 Statistics are like so: 0 == 5 1 == 125 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0384615 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.961538 expected payoff == 0.961538
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 131
+
+#rounds == 131 Statistics are like so: 0 == 129 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.984733 expected payoff == 1.96947
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0152672 expected payoff == 0.0610687
+Player I: best value @ 1 -> 1.96947
+#rounds == 131 Statistics are like so: 0 == 5 1 == 126 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0381679 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.961832 expected payoff == 0.961832
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 132
+
+#rounds == 132 Statistics are like so: 0 == 130 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.984848 expected payoff == 1.9697
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0151515 expected payoff == 0.0606061
+Player I: best value @ 1 -> 1.9697
+#rounds == 132 Statistics are like so: 0 == 5 1 == 127 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0378788 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.962121 expected payoff == 0.962121
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 133
+
+#rounds == 133 Statistics are like so: 0 == 131 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.984962 expected payoff == 1.96992
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0150376 expected payoff == 0.0601504
+Player I: best value @ 1 -> 1.96992
+#rounds == 133 Statistics are like so: 0 == 5 1 == 128 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.037594 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.962406 expected payoff == 0.962406
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 134
+
+#rounds == 134 Statistics are like so: 0 == 132 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.985075 expected payoff == 1.97015
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0149254 expected payoff == 0.0597015
+Player I: best value @ 1 -> 1.97015
+#rounds == 134 Statistics are like so: 0 == 5 1 == 129 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0373134 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.962687 expected payoff == 0.962687
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 135
+
+#rounds == 135 Statistics are like so: 0 == 133 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.985185 expected payoff == 1.97037
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0148148 expected payoff == 0.0592593
+Player I: best value @ 1 -> 1.97037
+#rounds == 135 Statistics are like so: 0 == 5 1 == 130 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.037037 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.962963 expected payoff == 0.962963
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 136
+
+#rounds == 136 Statistics are like so: 0 == 134 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.985294 expected payoff == 1.97059
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0147059 expected payoff == 0.0588235
+Player I: best value @ 1 -> 1.97059
+#rounds == 136 Statistics are like so: 0 == 5 1 == 131 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0367647 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.963235 expected payoff == 0.963235
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 137
+
+#rounds == 137 Statistics are like so: 0 == 135 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.985401 expected payoff == 1.9708
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0145985 expected payoff == 0.0583942
+Player I: best value @ 1 -> 1.9708
+#rounds == 137 Statistics are like so: 0 == 5 1 == 132 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0364964 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.963504 expected payoff == 0.963504
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 138
+
+#rounds == 138 Statistics are like so: 0 == 136 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.985507 expected payoff == 1.97101
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0144928 expected payoff == 0.057971
+Player I: best value @ 1 -> 1.97101
+#rounds == 138 Statistics are like so: 0 == 5 1 == 133 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0362319 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.963768 expected payoff == 0.963768
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 139
+
+#rounds == 139 Statistics are like so: 0 == 137 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.985612 expected payoff == 1.97122
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0143885 expected payoff == 0.057554
+Player I: best value @ 1 -> 1.97122
+#rounds == 139 Statistics are like so: 0 == 5 1 == 134 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0359712 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.964029 expected payoff == 0.964029
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 140
+
+#rounds == 140 Statistics are like so: 0 == 138 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.985714 expected payoff == 1.97143
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0142857 expected payoff == 0.0571429
+Player I: best value @ 1 -> 1.97143
+#rounds == 140 Statistics are like so: 0 == 5 1 == 135 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0357143 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.964286 expected payoff == 0.964286
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 141
+
+#rounds == 141 Statistics are like so: 0 == 139 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.985816 expected payoff == 1.97163
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0141844 expected payoff == 0.0567376
+Player I: best value @ 1 -> 1.97163
+#rounds == 141 Statistics are like so: 0 == 5 1 == 136 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.035461 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.964539 expected payoff == 0.964539
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 142
+
+#rounds == 142 Statistics are like so: 0 == 140 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.985915 expected payoff == 1.97183
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0140845 expected payoff == 0.056338
+Player I: best value @ 1 -> 1.97183
+#rounds == 142 Statistics are like so: 0 == 5 1 == 137 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0352113 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.964789 expected payoff == 0.964789
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 143
+
+#rounds == 143 Statistics are like so: 0 == 141 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.986014 expected payoff == 1.97203
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.013986 expected payoff == 0.0559441
+Player I: best value @ 1 -> 1.97203
+#rounds == 143 Statistics are like so: 0 == 5 1 == 138 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.034965 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.965035 expected payoff == 0.965035
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 144
+
+#rounds == 144 Statistics are like so: 0 == 142 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.986111 expected payoff == 1.97222
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0138889 expected payoff == 0.0555556
+Player I: best value @ 1 -> 1.97222
+#rounds == 144 Statistics are like so: 0 == 5 1 == 139 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0347222 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.965278 expected payoff == 0.965278
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 145
+
+#rounds == 145 Statistics are like so: 0 == 143 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.986207 expected payoff == 1.97241
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0137931 expected payoff == 0.0551724
+Player I: best value @ 1 -> 1.97241
+#rounds == 145 Statistics are like so: 0 == 5 1 == 140 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0344828 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.965517 expected payoff == 0.965517
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 146
+
+#rounds == 146 Statistics are like so: 0 == 144 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.986301 expected payoff == 1.9726
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0136986 expected payoff == 0.0547945
+Player I: best value @ 1 -> 1.9726
+#rounds == 146 Statistics are like so: 0 == 5 1 == 141 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0342466 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.965753 expected payoff == 0.965753
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 147
+
+#rounds == 147 Statistics are like so: 0 == 145 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.986395 expected payoff == 1.97279
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0136054 expected payoff == 0.0544218
+Player I: best value @ 1 -> 1.97279
+#rounds == 147 Statistics are like so: 0 == 5 1 == 142 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0340136 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.965986 expected payoff == 0.965986
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 148
+
+#rounds == 148 Statistics are like so: 0 == 146 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.986486 expected payoff == 1.97297
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0135135 expected payoff == 0.0540541
+Player I: best value @ 1 -> 1.97297
+#rounds == 148 Statistics are like so: 0 == 5 1 == 143 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0337838 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.966216 expected payoff == 0.966216
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 149
+
+#rounds == 149 Statistics are like so: 0 == 147 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.986577 expected payoff == 1.97315
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0134228 expected payoff == 0.0536913
+Player I: best value @ 1 -> 1.97315
+#rounds == 149 Statistics are like so: 0 == 5 1 == 144 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.033557 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.966443 expected payoff == 0.966443
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 150
+
+#rounds == 150 Statistics are like so: 0 == 148 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.986667 expected payoff == 1.97333
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0133333 expected payoff == 0.0533333
+Player I: best value @ 1 -> 1.97333
+#rounds == 150 Statistics are like so: 0 == 5 1 == 145 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0333333 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.966667 expected payoff == 0.966667
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 151
+
+#rounds == 151 Statistics are like so: 0 == 149 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.986755 expected payoff == 1.97351
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.013245 expected payoff == 0.0529801
+Player I: best value @ 1 -> 1.97351
+#rounds == 151 Statistics are like so: 0 == 5 1 == 146 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0331126 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.966887 expected payoff == 0.966887
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 152
+
+#rounds == 152 Statistics are like so: 0 == 150 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.986842 expected payoff == 1.97368
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0131579 expected payoff == 0.0526316
+Player I: best value @ 1 -> 1.97368
+#rounds == 152 Statistics are like so: 0 == 5 1 == 147 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0328947 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.967105 expected payoff == 0.967105
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 153
+
+#rounds == 153 Statistics are like so: 0 == 151 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.986928 expected payoff == 1.97386
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0130719 expected payoff == 0.0522876
+Player I: best value @ 1 -> 1.97386
+#rounds == 153 Statistics are like so: 0 == 5 1 == 148 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0326797 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.96732 expected payoff == 0.96732
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 154
+
+#rounds == 154 Statistics are like so: 0 == 152 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.987013 expected payoff == 1.97403
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.012987 expected payoff == 0.0519481
+Player I: best value @ 1 -> 1.97403
+#rounds == 154 Statistics are like so: 0 == 5 1 == 149 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0324675 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.967532 expected payoff == 0.967532
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 155
+
+#rounds == 155 Statistics are like so: 0 == 153 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.987097 expected payoff == 1.97419
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0129032 expected payoff == 0.0516129
+Player I: best value @ 1 -> 1.97419
+#rounds == 155 Statistics are like so: 0 == 5 1 == 150 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0322581 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.967742 expected payoff == 0.967742
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 156
+
+#rounds == 156 Statistics are like so: 0 == 154 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.987179 expected payoff == 1.97436
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0128205 expected payoff == 0.0512821
+Player I: best value @ 1 -> 1.97436
+#rounds == 156 Statistics are like so: 0 == 5 1 == 151 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0320513 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.967949 expected payoff == 0.967949
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 157
+
+#rounds == 157 Statistics are like so: 0 == 155 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.987261 expected payoff == 1.97452
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0127389 expected payoff == 0.0509554
+Player I: best value @ 1 -> 1.97452
+#rounds == 157 Statistics are like so: 0 == 5 1 == 152 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0318471 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.968153 expected payoff == 0.968153
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 158
+
+#rounds == 158 Statistics are like so: 0 == 156 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.987342 expected payoff == 1.97468
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0126582 expected payoff == 0.0506329
+Player I: best value @ 1 -> 1.97468
+#rounds == 158 Statistics are like so: 0 == 5 1 == 153 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0316456 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.968354 expected payoff == 0.968354
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 159
+
+#rounds == 159 Statistics are like so: 0 == 157 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.987421 expected payoff == 1.97484
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0125786 expected payoff == 0.0503145
+Player I: best value @ 1 -> 1.97484
+#rounds == 159 Statistics are like so: 0 == 5 1 == 154 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0314465 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.968553 expected payoff == 0.968553
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 160
+
+#rounds == 160 Statistics are like so: 0 == 158 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.9875 expected payoff == 1.975
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0125 expected payoff == 0.05
+Player I: best value @ 1 -> 1.975
+#rounds == 160 Statistics are like so: 0 == 5 1 == 155 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.03125 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.96875 expected payoff == 0.96875
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 161
+
+#rounds == 161 Statistics are like so: 0 == 159 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.987578 expected payoff == 1.97516
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0124224 expected payoff == 0.0496894
+Player I: best value @ 1 -> 1.97516
+#rounds == 161 Statistics are like so: 0 == 5 1 == 156 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0310559 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.968944 expected payoff == 0.968944
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 162
+
+#rounds == 162 Statistics are like so: 0 == 160 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.987654 expected payoff == 1.97531
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0123457 expected payoff == 0.0493827
+Player I: best value @ 1 -> 1.97531
+#rounds == 162 Statistics are like so: 0 == 5 1 == 157 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0308642 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.969136 expected payoff == 0.969136
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 163
+
+#rounds == 163 Statistics are like so: 0 == 161 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.98773 expected payoff == 1.97546
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0122699 expected payoff == 0.0490798
+Player I: best value @ 1 -> 1.97546
+#rounds == 163 Statistics are like so: 0 == 5 1 == 158 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0306748 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.969325 expected payoff == 0.969325
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 164
+
+#rounds == 164 Statistics are like so: 0 == 162 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.987805 expected payoff == 1.97561
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0121951 expected payoff == 0.0487805
+Player I: best value @ 1 -> 1.97561
+#rounds == 164 Statistics are like so: 0 == 5 1 == 159 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0304878 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.969512 expected payoff == 0.969512
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 165
+
+#rounds == 165 Statistics are like so: 0 == 163 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.987879 expected payoff == 1.97576
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0121212 expected payoff == 0.0484848
+Player I: best value @ 1 -> 1.97576
+#rounds == 165 Statistics are like so: 0 == 5 1 == 160 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.030303 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.969697 expected payoff == 0.969697
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 166
+
+#rounds == 166 Statistics are like so: 0 == 164 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.987952 expected payoff == 1.9759
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0120482 expected payoff == 0.0481928
+Player I: best value @ 1 -> 1.9759
+#rounds == 166 Statistics are like so: 0 == 5 1 == 161 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0301205 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.96988 expected payoff == 0.96988
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 167
+
+#rounds == 167 Statistics are like so: 0 == 165 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988024 expected payoff == 1.97605
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.011976 expected payoff == 0.0479042
+Player I: best value @ 1 -> 1.97605
+#rounds == 167 Statistics are like so: 0 == 5 1 == 162 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0299401 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.97006 expected payoff == 0.97006
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 168
+
+#rounds == 168 Statistics are like so: 0 == 166 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988095 expected payoff == 1.97619
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0119048 expected payoff == 0.047619
+Player I: best value @ 1 -> 1.97619
+#rounds == 168 Statistics are like so: 0 == 5 1 == 163 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0297619 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.970238 expected payoff == 0.970238
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 169
+
+#rounds == 169 Statistics are like so: 0 == 167 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988166 expected payoff == 1.97633
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0118343 expected payoff == 0.0473373
+Player I: best value @ 1 -> 1.97633
+#rounds == 169 Statistics are like so: 0 == 5 1 == 164 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0295858 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.970414 expected payoff == 0.970414
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 170
+
+#rounds == 170 Statistics are like so: 0 == 168 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988235 expected payoff == 1.97647
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0117647 expected payoff == 0.0470588
+Player I: best value @ 1 -> 1.97647
+#rounds == 170 Statistics are like so: 0 == 5 1 == 165 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0294118 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.970588 expected payoff == 0.970588
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 171
+
+#rounds == 171 Statistics are like so: 0 == 169 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988304 expected payoff == 1.97661
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0116959 expected payoff == 0.0467836
+Player I: best value @ 1 -> 1.97661
+#rounds == 171 Statistics are like so: 0 == 5 1 == 166 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0292398 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.97076 expected payoff == 0.97076
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 172
+
+#rounds == 172 Statistics are like so: 0 == 170 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988372 expected payoff == 1.97674
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0116279 expected payoff == 0.0465116
+Player I: best value @ 1 -> 1.97674
+#rounds == 172 Statistics are like so: 0 == 5 1 == 167 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0290698 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.97093 expected payoff == 0.97093
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 173
+
+#rounds == 173 Statistics are like so: 0 == 171 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988439 expected payoff == 1.97688
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0115607 expected payoff == 0.0462428
+Player I: best value @ 1 -> 1.97688
+#rounds == 173 Statistics are like so: 0 == 5 1 == 168 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0289017 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.971098 expected payoff == 0.971098
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 174
+
+#rounds == 174 Statistics are like so: 0 == 172 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988506 expected payoff == 1.97701
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0114943 expected payoff == 0.045977
+Player I: best value @ 1 -> 1.97701
+#rounds == 174 Statistics are like so: 0 == 5 1 == 169 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0287356 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.971264 expected payoff == 0.971264
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 175
+
+#rounds == 175 Statistics are like so: 0 == 173 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988571 expected payoff == 1.97714
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0114286 expected payoff == 0.0457143
+Player I: best value @ 1 -> 1.97714
+#rounds == 175 Statistics are like so: 0 == 5 1 == 170 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0285714 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.971429 expected payoff == 0.971429
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 176
+
+#rounds == 176 Statistics are like so: 0 == 174 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988636 expected payoff == 1.97727
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0113636 expected payoff == 0.0454545
+Player I: best value @ 1 -> 1.97727
+#rounds == 176 Statistics are like so: 0 == 5 1 == 171 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0284091 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.971591 expected payoff == 0.971591
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 177
+
+#rounds == 177 Statistics are like so: 0 == 175 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988701 expected payoff == 1.9774
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0112994 expected payoff == 0.0451977
+Player I: best value @ 1 -> 1.9774
+#rounds == 177 Statistics are like so: 0 == 5 1 == 172 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0282486 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.971751 expected payoff == 0.971751
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 178
+
+#rounds == 178 Statistics are like so: 0 == 176 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988764 expected payoff == 1.97753
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.011236 expected payoff == 0.0449438
+Player I: best value @ 1 -> 1.97753
+#rounds == 178 Statistics are like so: 0 == 5 1 == 173 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0280899 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.97191 expected payoff == 0.97191
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 179
+
+#rounds == 179 Statistics are like so: 0 == 177 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988827 expected payoff == 1.97765
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0111732 expected payoff == 0.0446927
+Player I: best value @ 1 -> 1.97765
+#rounds == 179 Statistics are like so: 0 == 5 1 == 174 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.027933 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.972067 expected payoff == 0.972067
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 180
+
+#rounds == 180 Statistics are like so: 0 == 178 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.988889 expected payoff == 1.97778
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0111111 expected payoff == 0.0444444
+Player I: best value @ 1 -> 1.97778
+#rounds == 180 Statistics are like so: 0 == 5 1 == 175 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0277778 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.972222 expected payoff == 0.972222
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 181
+
+#rounds == 181 Statistics are like so: 0 == 179 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.98895 expected payoff == 1.9779
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0110497 expected payoff == 0.0441989
+Player I: best value @ 1 -> 1.9779
+#rounds == 181 Statistics are like so: 0 == 5 1 == 176 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0276243 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.972376 expected payoff == 0.972376
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 182
+
+#rounds == 182 Statistics are like so: 0 == 180 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989011 expected payoff == 1.97802
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.010989 expected payoff == 0.043956
+Player I: best value @ 1 -> 1.97802
+#rounds == 182 Statistics are like so: 0 == 5 1 == 177 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0274725 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.972527 expected payoff == 0.972527
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 183
+
+#rounds == 183 Statistics are like so: 0 == 181 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989071 expected payoff == 1.97814
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.010929 expected payoff == 0.0437158
+Player I: best value @ 1 -> 1.97814
+#rounds == 183 Statistics are like so: 0 == 5 1 == 178 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0273224 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.972678 expected payoff == 0.972678
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 184
+
+#rounds == 184 Statistics are like so: 0 == 182 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.98913 expected payoff == 1.97826
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0108696 expected payoff == 0.0434783
+Player I: best value @ 1 -> 1.97826
+#rounds == 184 Statistics are like so: 0 == 5 1 == 179 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0271739 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.972826 expected payoff == 0.972826
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 185
+
+#rounds == 185 Statistics are like so: 0 == 183 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989189 expected payoff == 1.97838
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0108108 expected payoff == 0.0432432
+Player I: best value @ 1 -> 1.97838
+#rounds == 185 Statistics are like so: 0 == 5 1 == 180 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.027027 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.972973 expected payoff == 0.972973
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 186
+
+#rounds == 186 Statistics are like so: 0 == 184 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989247 expected payoff == 1.97849
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0107527 expected payoff == 0.0430108
+Player I: best value @ 1 -> 1.97849
+#rounds == 186 Statistics are like so: 0 == 5 1 == 181 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0268817 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.973118 expected payoff == 0.973118
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 187
+
+#rounds == 187 Statistics are like so: 0 == 185 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989305 expected payoff == 1.97861
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0106952 expected payoff == 0.0427807
+Player I: best value @ 1 -> 1.97861
+#rounds == 187 Statistics are like so: 0 == 5 1 == 182 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.026738 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.973262 expected payoff == 0.973262
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 188
+
+#rounds == 188 Statistics are like so: 0 == 186 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989362 expected payoff == 1.97872
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0106383 expected payoff == 0.0425532
+Player I: best value @ 1 -> 1.97872
+#rounds == 188 Statistics are like so: 0 == 5 1 == 183 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0265957 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.973404 expected payoff == 0.973404
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 189
+
+#rounds == 189 Statistics are like so: 0 == 187 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989418 expected payoff == 1.97884
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.010582 expected payoff == 0.042328
+Player I: best value @ 1 -> 1.97884
+#rounds == 189 Statistics are like so: 0 == 5 1 == 184 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.026455 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.973545 expected payoff == 0.973545
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 190
+
+#rounds == 190 Statistics are like so: 0 == 188 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989474 expected payoff == 1.97895
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0105263 expected payoff == 0.0421053
+Player I: best value @ 1 -> 1.97895
+#rounds == 190 Statistics are like so: 0 == 5 1 == 185 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0263158 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.973684 expected payoff == 0.973684
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 191
+
+#rounds == 191 Statistics are like so: 0 == 189 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989529 expected payoff == 1.97906
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0104712 expected payoff == 0.0418848
+Player I: best value @ 1 -> 1.97906
+#rounds == 191 Statistics are like so: 0 == 5 1 == 186 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.026178 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.973822 expected payoff == 0.973822
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 192
+
+#rounds == 192 Statistics are like so: 0 == 190 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989583 expected payoff == 1.97917
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0104167 expected payoff == 0.0416667
+Player I: best value @ 1 -> 1.97917
+#rounds == 192 Statistics are like so: 0 == 5 1 == 187 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0260417 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.973958 expected payoff == 0.973958
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 193
+
+#rounds == 193 Statistics are like so: 0 == 191 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989637 expected payoff == 1.97927
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0103627 expected payoff == 0.0414508
+Player I: best value @ 1 -> 1.97927
+#rounds == 193 Statistics are like so: 0 == 5 1 == 188 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0259067 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.974093 expected payoff == 0.974093
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 194
+
+#rounds == 194 Statistics are like so: 0 == 192 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989691 expected payoff == 1.97938
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0103093 expected payoff == 0.0412371
+Player I: best value @ 1 -> 1.97938
+#rounds == 194 Statistics are like so: 0 == 5 1 == 189 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0257732 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.974227 expected payoff == 0.974227
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 195
+
+#rounds == 195 Statistics are like so: 0 == 193 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989744 expected payoff == 1.97949
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0102564 expected payoff == 0.0410256
+Player I: best value @ 1 -> 1.97949
+#rounds == 195 Statistics are like so: 0 == 5 1 == 190 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.025641 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.974359 expected payoff == 0.974359
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 196
+
+#rounds == 196 Statistics are like so: 0 == 194 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989796 expected payoff == 1.97959
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0102041 expected payoff == 0.0408163
+Player I: best value @ 1 -> 1.97959
+#rounds == 196 Statistics are like so: 0 == 5 1 == 191 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0255102 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.97449 expected payoff == 0.97449
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 197
+
+#rounds == 197 Statistics are like so: 0 == 195 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989848 expected payoff == 1.9797
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0101523 expected payoff == 0.0406091
+Player I: best value @ 1 -> 1.9797
+#rounds == 197 Statistics are like so: 0 == 5 1 == 192 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0253807 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.974619 expected payoff == 0.974619
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 198
+
+#rounds == 198 Statistics are like so: 0 == 196 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.989899 expected payoff == 1.9798
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.010101 expected payoff == 0.040404
+Player I: best value @ 1 -> 1.9798
+#rounds == 198 Statistics are like so: 0 == 5 1 == 193 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0252525 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.974747 expected payoff == 0.974747
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 199
+
+#rounds == 199 Statistics are like so: 0 == 197 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.98995 expected payoff == 1.9799
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0100503 expected payoff == 0.040201
+Player I: best value @ 1 -> 1.9799
+#rounds == 199 Statistics are like so: 0 == 5 1 == 194 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0251256 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.974874 expected payoff == 0.974874
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 200
+
+#rounds == 200 Statistics are like so: 0 == 198 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.99 expected payoff == 1.98
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.01 expected payoff == 0.04
+Player I: best value @ 1 -> 1.98
+#rounds == 200 Statistics are like so: 0 == 5 1 == 195 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.025 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.975 expected payoff == 0.975
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 201
+
+#rounds == 201 Statistics are like so: 0 == 199 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.99005 expected payoff == 1.9801
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00995025 expected payoff == 0.039801
+Player I: best value @ 1 -> 1.9801
+#rounds == 201 Statistics are like so: 0 == 5 1 == 196 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0248756 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.975124 expected payoff == 0.975124
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 202
+
+#rounds == 202 Statistics are like so: 0 == 200 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990099 expected payoff == 1.9802
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00990099 expected payoff == 0.039604
+Player I: best value @ 1 -> 1.9802
+#rounds == 202 Statistics are like so: 0 == 5 1 == 197 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0247525 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.975248 expected payoff == 0.975248
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 203
+
+#rounds == 203 Statistics are like so: 0 == 201 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990148 expected payoff == 1.9803
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00985222 expected payoff == 0.0394089
+Player I: best value @ 1 -> 1.9803
+#rounds == 203 Statistics are like so: 0 == 5 1 == 198 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0246305 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.975369 expected payoff == 0.975369
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 204
+
+#rounds == 204 Statistics are like so: 0 == 202 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990196 expected payoff == 1.98039
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00980392 expected payoff == 0.0392157
+Player I: best value @ 1 -> 1.98039
+#rounds == 204 Statistics are like so: 0 == 5 1 == 199 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0245098 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.97549 expected payoff == 0.97549
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 205
+
+#rounds == 205 Statistics are like so: 0 == 203 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990244 expected payoff == 1.98049
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0097561 expected payoff == 0.0390244
+Player I: best value @ 1 -> 1.98049
+#rounds == 205 Statistics are like so: 0 == 5 1 == 200 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0243902 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.97561 expected payoff == 0.97561
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 206
+
+#rounds == 206 Statistics are like so: 0 == 204 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990291 expected payoff == 1.98058
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00970874 expected payoff == 0.038835
+Player I: best value @ 1 -> 1.98058
+#rounds == 206 Statistics are like so: 0 == 5 1 == 201 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0242718 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.975728 expected payoff == 0.975728
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 207
+
+#rounds == 207 Statistics are like so: 0 == 205 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990338 expected payoff == 1.98068
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00966184 expected payoff == 0.0386473
+Player I: best value @ 1 -> 1.98068
+#rounds == 207 Statistics are like so: 0 == 5 1 == 202 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0241546 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.975845 expected payoff == 0.975845
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 208
+
+#rounds == 208 Statistics are like so: 0 == 206 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990385 expected payoff == 1.98077
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00961538 expected payoff == 0.0384615
+Player I: best value @ 1 -> 1.98077
+#rounds == 208 Statistics are like so: 0 == 5 1 == 203 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0240385 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.975962 expected payoff == 0.975962
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 209
+
+#rounds == 209 Statistics are like so: 0 == 207 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990431 expected payoff == 1.98086
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00956938 expected payoff == 0.0382775
+Player I: best value @ 1 -> 1.98086
+#rounds == 209 Statistics are like so: 0 == 5 1 == 204 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0239234 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.976077 expected payoff == 0.976077
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 210
+
+#rounds == 210 Statistics are like so: 0 == 208 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990476 expected payoff == 1.98095
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00952381 expected payoff == 0.0380952
+Player I: best value @ 1 -> 1.98095
+#rounds == 210 Statistics are like so: 0 == 5 1 == 205 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0238095 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.97619 expected payoff == 0.97619
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 211
+
+#rounds == 211 Statistics are like so: 0 == 209 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990521 expected payoff == 1.98104
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00947867 expected payoff == 0.0379147
+Player I: best value @ 1 -> 1.98104
+#rounds == 211 Statistics are like so: 0 == 5 1 == 206 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0236967 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.976303 expected payoff == 0.976303
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 212
+
+#rounds == 212 Statistics are like so: 0 == 210 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990566 expected payoff == 1.98113
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00943396 expected payoff == 0.0377358
+Player I: best value @ 1 -> 1.98113
+#rounds == 212 Statistics are like so: 0 == 5 1 == 207 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0235849 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.976415 expected payoff == 0.976415
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 213
+
+#rounds == 213 Statistics are like so: 0 == 211 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.99061 expected payoff == 1.98122
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00938967 expected payoff == 0.0375587
+Player I: best value @ 1 -> 1.98122
+#rounds == 213 Statistics are like so: 0 == 5 1 == 208 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0234742 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.976526 expected payoff == 0.976526
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 214
+
+#rounds == 214 Statistics are like so: 0 == 212 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990654 expected payoff == 1.98131
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00934579 expected payoff == 0.0373832
+Player I: best value @ 1 -> 1.98131
+#rounds == 214 Statistics are like so: 0 == 5 1 == 209 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0233645 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.976636 expected payoff == 0.976636
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 215
+
+#rounds == 215 Statistics are like so: 0 == 213 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990698 expected payoff == 1.9814
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00930233 expected payoff == 0.0372093
+Player I: best value @ 1 -> 1.9814
+#rounds == 215 Statistics are like so: 0 == 5 1 == 210 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0232558 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.976744 expected payoff == 0.976744
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 216
+
+#rounds == 216 Statistics are like so: 0 == 214 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990741 expected payoff == 1.98148
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00925926 expected payoff == 0.037037
+Player I: best value @ 1 -> 1.98148
+#rounds == 216 Statistics are like so: 0 == 5 1 == 211 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0231481 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.976852 expected payoff == 0.976852
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 217
+
+#rounds == 217 Statistics are like so: 0 == 215 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990783 expected payoff == 1.98157
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00921659 expected payoff == 0.0368664
+Player I: best value @ 1 -> 1.98157
+#rounds == 217 Statistics are like so: 0 == 5 1 == 212 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0230415 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.976959 expected payoff == 0.976959
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 218
+
+#rounds == 218 Statistics are like so: 0 == 216 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990826 expected payoff == 1.98165
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00917431 expected payoff == 0.0366972
+Player I: best value @ 1 -> 1.98165
+#rounds == 218 Statistics are like so: 0 == 5 1 == 213 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0229358 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.977064 expected payoff == 0.977064
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 219
+
+#rounds == 219 Statistics are like so: 0 == 217 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990868 expected payoff == 1.98174
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00913242 expected payoff == 0.0365297
+Player I: best value @ 1 -> 1.98174
+#rounds == 219 Statistics are like so: 0 == 5 1 == 214 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0228311 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.977169 expected payoff == 0.977169
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 220
+
+#rounds == 220 Statistics are like so: 0 == 218 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990909 expected payoff == 1.98182
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00909091 expected payoff == 0.0363636
+Player I: best value @ 1 -> 1.98182
+#rounds == 220 Statistics are like so: 0 == 5 1 == 215 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0227273 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.977273 expected payoff == 0.977273
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 221
+
+#rounds == 221 Statistics are like so: 0 == 219 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.99095 expected payoff == 1.9819
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00904977 expected payoff == 0.0361991
+Player I: best value @ 1 -> 1.9819
+#rounds == 221 Statistics are like so: 0 == 5 1 == 216 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0226244 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.977376 expected payoff == 0.977376
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 222
+
+#rounds == 222 Statistics are like so: 0 == 220 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.990991 expected payoff == 1.98198
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00900901 expected payoff == 0.036036
+Player I: best value @ 1 -> 1.98198
+#rounds == 222 Statistics are like so: 0 == 5 1 == 217 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0225225 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.977477 expected payoff == 0.977477
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 223
+
+#rounds == 223 Statistics are like so: 0 == 221 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991031 expected payoff == 1.98206
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00896861 expected payoff == 0.0358744
+Player I: best value @ 1 -> 1.98206
+#rounds == 223 Statistics are like so: 0 == 5 1 == 218 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0224215 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.977578 expected payoff == 0.977578
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 224
+
+#rounds == 224 Statistics are like so: 0 == 222 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991071 expected payoff == 1.98214
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00892857 expected payoff == 0.0357143
+Player I: best value @ 1 -> 1.98214
+#rounds == 224 Statistics are like so: 0 == 5 1 == 219 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0223214 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.977679 expected payoff == 0.977679
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 225
+
+#rounds == 225 Statistics are like so: 0 == 223 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991111 expected payoff == 1.98222
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00888889 expected payoff == 0.0355556
+Player I: best value @ 1 -> 1.98222
+#rounds == 225 Statistics are like so: 0 == 5 1 == 220 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0222222 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.977778 expected payoff == 0.977778
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 226
+
+#rounds == 226 Statistics are like so: 0 == 224 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.99115 expected payoff == 1.9823
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00884956 expected payoff == 0.0353982
+Player I: best value @ 1 -> 1.9823
+#rounds == 226 Statistics are like so: 0 == 5 1 == 221 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0221239 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.977876 expected payoff == 0.977876
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 227
+
+#rounds == 227 Statistics are like so: 0 == 225 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991189 expected payoff == 1.98238
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00881057 expected payoff == 0.0352423
+Player I: best value @ 1 -> 1.98238
+#rounds == 227 Statistics are like so: 0 == 5 1 == 222 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0220264 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.977974 expected payoff == 0.977974
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 228
+
+#rounds == 228 Statistics are like so: 0 == 226 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991228 expected payoff == 1.98246
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00877193 expected payoff == 0.0350877
+Player I: best value @ 1 -> 1.98246
+#rounds == 228 Statistics are like so: 0 == 5 1 == 223 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0219298 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.97807 expected payoff == 0.97807
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 229
+
+#rounds == 229 Statistics are like so: 0 == 227 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991266 expected payoff == 1.98253
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00873362 expected payoff == 0.0349345
+Player I: best value @ 1 -> 1.98253
+#rounds == 229 Statistics are like so: 0 == 5 1 == 224 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0218341 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.978166 expected payoff == 0.978166
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 230
+
+#rounds == 230 Statistics are like so: 0 == 228 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991304 expected payoff == 1.98261
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00869565 expected payoff == 0.0347826
+Player I: best value @ 1 -> 1.98261
+#rounds == 230 Statistics are like so: 0 == 5 1 == 225 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0217391 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.978261 expected payoff == 0.978261
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 231
+
+#rounds == 231 Statistics are like so: 0 == 229 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991342 expected payoff == 1.98268
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00865801 expected payoff == 0.034632
+Player I: best value @ 1 -> 1.98268
+#rounds == 231 Statistics are like so: 0 == 5 1 == 226 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.021645 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.978355 expected payoff == 0.978355
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 232
+
+#rounds == 232 Statistics are like so: 0 == 230 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991379 expected payoff == 1.98276
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00862069 expected payoff == 0.0344828
+Player I: best value @ 1 -> 1.98276
+#rounds == 232 Statistics are like so: 0 == 5 1 == 227 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0215517 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.978448 expected payoff == 0.978448
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 233
+
+#rounds == 233 Statistics are like so: 0 == 231 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991416 expected payoff == 1.98283
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00858369 expected payoff == 0.0343348
+Player I: best value @ 1 -> 1.98283
+#rounds == 233 Statistics are like so: 0 == 5 1 == 228 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0214592 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.978541 expected payoff == 0.978541
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 234
+
+#rounds == 234 Statistics are like so: 0 == 232 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991453 expected payoff == 1.98291
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00854701 expected payoff == 0.034188
+Player I: best value @ 1 -> 1.98291
+#rounds == 234 Statistics are like so: 0 == 5 1 == 229 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0213675 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.978632 expected payoff == 0.978632
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 235
+
+#rounds == 235 Statistics are like so: 0 == 233 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991489 expected payoff == 1.98298
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00851064 expected payoff == 0.0340426
+Player I: best value @ 1 -> 1.98298
+#rounds == 235 Statistics are like so: 0 == 5 1 == 230 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0212766 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.978723 expected payoff == 0.978723
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 236
+
+#rounds == 236 Statistics are like so: 0 == 234 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991525 expected payoff == 1.98305
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00847458 expected payoff == 0.0338983
+Player I: best value @ 1 -> 1.98305
+#rounds == 236 Statistics are like so: 0 == 5 1 == 231 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0211864 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.978814 expected payoff == 0.978814
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 237
+
+#rounds == 237 Statistics are like so: 0 == 235 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991561 expected payoff == 1.98312
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00843882 expected payoff == 0.0337553
+Player I: best value @ 1 -> 1.98312
+#rounds == 237 Statistics are like so: 0 == 5 1 == 232 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.021097 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.978903 expected payoff == 0.978903
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 238
+
+#rounds == 238 Statistics are like so: 0 == 236 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991597 expected payoff == 1.98319
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00840336 expected payoff == 0.0336134
+Player I: best value @ 1 -> 1.98319
+#rounds == 238 Statistics are like so: 0 == 5 1 == 233 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0210084 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.978992 expected payoff == 0.978992
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 239
+
+#rounds == 239 Statistics are like so: 0 == 237 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991632 expected payoff == 1.98326
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.0083682 expected payoff == 0.0334728
+Player I: best value @ 1 -> 1.98326
+#rounds == 239 Statistics are like so: 0 == 5 1 == 234 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0209205 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.979079 expected payoff == 0.979079
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 240
+
+#rounds == 240 Statistics are like so: 0 == 238 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991667 expected payoff == 1.98333
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00833333 expected payoff == 0.0333333
+Player I: best value @ 1 -> 1.98333
+#rounds == 240 Statistics are like so: 0 == 5 1 == 235 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0208333 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.979167 expected payoff == 0.979167
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 241
+
+#rounds == 241 Statistics are like so: 0 == 239 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991701 expected payoff == 1.9834
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00829876 expected payoff == 0.033195
+Player I: best value @ 1 -> 1.9834
+#rounds == 241 Statistics are like so: 0 == 5 1 == 236 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0207469 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.979253 expected payoff == 0.979253
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 242
+
+#rounds == 242 Statistics are like so: 0 == 240 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991736 expected payoff == 1.98347
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00826446 expected payoff == 0.0330579
+Player I: best value @ 1 -> 1.98347
+#rounds == 242 Statistics are like so: 0 == 5 1 == 237 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0206612 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.979339 expected payoff == 0.979339
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 243
+
+#rounds == 243 Statistics are like so: 0 == 241 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.99177 expected payoff == 1.98354
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00823045 expected payoff == 0.0329218
+Player I: best value @ 1 -> 1.98354
+#rounds == 243 Statistics are like so: 0 == 5 1 == 238 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0205761 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.979424 expected payoff == 0.979424
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 244
+
+#rounds == 244 Statistics are like so: 0 == 242 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991803 expected payoff == 1.98361
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00819672 expected payoff == 0.0327869
+Player I: best value @ 1 -> 1.98361
+#rounds == 244 Statistics are like so: 0 == 5 1 == 239 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0204918 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.979508 expected payoff == 0.979508
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 245
+
+#rounds == 245 Statistics are like so: 0 == 243 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991837 expected payoff == 1.98367
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00816327 expected payoff == 0.0326531
+Player I: best value @ 1 -> 1.98367
+#rounds == 245 Statistics are like so: 0 == 5 1 == 240 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0204082 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.979592 expected payoff == 0.979592
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 246
+
+#rounds == 246 Statistics are like so: 0 == 244 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.99187 expected payoff == 1.98374
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00813008 expected payoff == 0.0325203
+Player I: best value @ 1 -> 1.98374
+#rounds == 246 Statistics are like so: 0 == 5 1 == 241 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0203252 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.979675 expected payoff == 0.979675
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 247
+
+#rounds == 247 Statistics are like so: 0 == 245 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991903 expected payoff == 1.98381
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00809717 expected payoff == 0.0323887
+Player I: best value @ 1 -> 1.98381
+#rounds == 247 Statistics are like so: 0 == 5 1 == 242 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0202429 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.979757 expected payoff == 0.979757
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 248
+
+#rounds == 248 Statistics are like so: 0 == 246 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991935 expected payoff == 1.98387
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00806452 expected payoff == 0.0322581
+Player I: best value @ 1 -> 1.98387
+#rounds == 248 Statistics are like so: 0 == 5 1 == 243 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0201613 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.979839 expected payoff == 0.979839
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 249
+
+#rounds == 249 Statistics are like so: 0 == 247 1 == 2 
+Player I: max in column is 2
+Player I: for strategy 0 played with probability 0.991968 expected payoff == 1.98394
+Player I: max in column is 4
+Player I: for strategy 1 played with probability 0.00803213 expected payoff == 0.0321285
+Player I: best value @ 1 -> 1.98394
+#rounds == 249 Statistics are like so: 0 == 5 1 == 244 
+Player I: min in row is 0
+Player II: for strategy 0 played with probability 0.0200803 expected payoff == 0
+Player I: min in row is 1
+Player II: for strategy 1 played with probability 0.97992 expected payoff == 0.97992
+Player II: best value @ 0 -> 0
+P1 == 1 and P2 == 0 -> 2
+
+
+
+CUMULATIVE RESULTS for 250
+
+
+
+Value of the game == 1.972
+
+
+Strategy results are:
+
+Player 1:
+raw strategy counts: 
+0 == 5 1 == 245 
+[   0] == 0.02	[   1] == 0.98	
+
+
+Player 2:
+raw strategy counts: 
+0 == 248 1 == 2 
+[   0] == 0.992	[   1] == 0.008	

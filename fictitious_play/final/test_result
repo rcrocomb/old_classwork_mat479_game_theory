@@ -1,0 +1,36 @@
+#rows == 3 #cols == 3
+Threshold for convergence is at 1e-05
+Game payoffs look like this:
+[   -3    0   -2 ]
+[    0    0   -1 ]
+[    4   -2    2 ]
+
+
+
+
+
+Crossed threshold of convergence @ 1e-05
+Iteration == 40141
+Absolute difference == 9.9997516e-06
+
+
+
+CUMULATIVE RESULTS for 40142 iterations
+
+
+
+Value of the game == -0.40140003
+
+
+Strategy results are:
+
+Player 1:
+raw strategy counts: 
+0 == 1 1 == 32018 2 == 8123 
+[   0] == 2.491e-05	[   1] == 0.7976	[   2] == 0.2024	
+
+
+Player 2:
+raw strategy counts: 
+0 == 2 1 == 24170 2 == 15970 
+[   0] == 4.982e-05	[   1] == 0.6021	[   2] == 0.3978	

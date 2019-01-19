@@ -1,0 +1,279 @@
+Game payoffs look like this:
+[ 0 4 ]
+[ 2 1 ]
+
+
+
+
+
+
+Round == 0
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 1
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 2
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 3
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 4
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 5
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 6
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 7
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 8
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 9
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 10
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 11
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 12
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 13
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 14
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 15
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 16
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 17
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 18
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 19
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 20
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 21
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 22
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 23
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 24
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 25
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 26
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 27
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 28
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 29
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 30
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 31
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 32
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 33
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 34
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 35
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 36
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 37
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 38
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 39
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 40
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 41
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 42
+
+P1 == 0 and P2 == 1 -> 4
+
+
+Round == 43
+
+P1 == 1 and P2 == 1 -> 1
+
+
+Round == 44
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 45
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 46
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 47
+
+P1 == 1 and P2 == 0 -> 2
+
+
+Round == 48
+
+P1 == 0 and P2 == 0 -> 0
+
+
+Round == 49
+
+P1 == 1 and P2 == 1 -> 1
+
+
+
+CUMULATIVE RESULTS for 50
+
+
+
+Value of the game == 1.86
+
+
+Strategy results are:
+
+Player 1:
+raw strategy counts: 
+0 == 24 1 == 26 
+[   0] == 0.48	[   1] == 0.52	
+
+
+Player 2:
+raw strategy counts: 
+0 == 26 1 == 24 
+[   0] == 0.52	[   1] == 0.48	
